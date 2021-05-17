@@ -1,0 +1,228 @@
+<!-- Created by: Jason Vanstone // Vanstone Online -->
+<!doctype html>
+<html ⚡ lang="en">
+  <head>
+  <title>Graffiti Alley</title>
+  <meta charset="utf-8" />
+  <link rel="canonical" href="https://www.vanstoneonline.com/amp/Graffiti-Alley/">
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <!-- ADDS AMP -->
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <!-- LOAD CUTOM ELEMENTS FOR AMP -->
+  <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+  <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+  <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
+  <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+  <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+	<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+  <style amp-custom>
+
+	body {
+  background-color: #000;
+ 	 width: auto;
+	 margin: 0;
+   padding: 0;
+   font-family: 'Architects Daughter', cursive;
+	}
+
+	header {
+   background: #3C4658;
+ 	 color: white;
+ 	 font-size: 1.5em;
+ 	 text-align: center;
+	}
+
+  article {
+    margin-top: 50px;
+    background-color: #ccc;
+    box-shadow: 0px 3px 5px grey;
+    border: solid 10px #555;
+    border-radius: 10px;
+  	}
+
+	h1 {
+ 	 margin: 0;
+ 	 padding: 0.5em;
+	}
+
+	p {
+ 	 padding: 0.5em;
+ 	 margin: 0.5em;
+	}
+
+  a {
+    color: #3C4658;
+
+  }
+	amp-fit-text {
+    white-space: normal;
+	}
+
+  img {
+    max-width: 1000px;
+    background-color: #000;
+  }
+
+  .home-button {
+  	margin-top: 8px;
+	}
+
+  .headerbar {
+  	height: 50px;
+  	position: fixed;
+  	z-index: 999;
+  	top: 0;
+  	width: 100%;
+  	display: flex;
+  	align-items: center;
+	}
+
+  .site-name {
+ 	 margin: auto;
+	}
+
+  .hamburger {
+  padding-left: 10px;
+  }
+
+  #sidebar1 {
+    background-color: #333;
+  }
+
+  .sidebar {
+    padding: 10px;
+    margin: 0;
+    width: 10em;
+  }
+  .sidebar > li {
+    list-style: none;
+    margin-bottom:10px;
+  }
+  .sidebar a {
+    padding: 0 2px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.2em;
+  }
+
+  .sidebar a:hover {
+    display: block;
+    background-color: #ccc;
+    color: #000;
+    border-right: 2px solid #fff;
+  }
+
+  .close-sidebar {
+    font-size: 1.5em;
+    padding-left: 5px;
+  }
+
+  .lightbox {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+</head>
+<body>
+
+  <amp-analytics type="gtag" data-credentials="include">
+  <script type="application/json">
+  {
+    "vars" : {
+      "gtag_id": "UA-184368288-1",
+      "config" : {
+        "UA-184368288-1": { "groups": "default" }
+      }
+    }
+  }
+  </script>
+  </amp-analytics>
+<header class="headerbar">
+ <div role="button" on="tap:sidebar1.toggle" tabindex="0" class="hamburger">☰</div>
+  <div class="site-name">// VO [ Graffiti Alley ]</div>
+</header>
+
+
+<amp-sidebar id="sidebar1" layout="nodisplay" side="left">
+  <div role="button" aria-label="close sidebar" on="tap:sidebar1.toggle" tabindex="0" class="close-sidebar">✕</div>
+  <ul class="sidebar">
+    <li><a href="#whatis">What is Graffiti?</a>
+    <li><a href="#about">About this Page</a></li>
+    <li><a href="https://vanstoneonline.com" target="_blank">Vanstone Online</a></li>
+  </ul>
+</amp-sidebar>
+
+    <article>
+      <p>Here are some great pieces of graffiti/street art that I have found throughout the streets of Toronto, Canada and Paris, France.</p>
+
+      <p>Click on the image to enter a fullscreen gallery.</p>
+    </article>
+
+<!-- carousel -->
+<amp-carousel
+  lightbox
+  width="1600"
+  height="900"
+  controls
+  layout="responsive"
+  type="slides"
+>
+  <amp-img src="./image/homer-simpson.jpg" width="500" height="368" layout="responsive" alt="Homer Simpson #donthinkaboutbeer"></amp-img>
+  <amp-img src="./image/shelter.jpg" width="500" height="368" layout="responsive" alt="Shelter Graffiti"></amp-img>
+  <amp-img src="./image/graffiti-tag.jpg" width="500" height="368" layout="responsive" alt="Graffiti Tag"></amp-img>
+  <amp-img src="./image/sculpture-graffiti.jpg" width="500" height="368" layout="responsive" alt="Sculpture Graffiti"></amp-img>
+  <amp-img src="./image/space-invaders.JPG" width="500" height="368" layout="responsive" alt="Sculpture Graffiti"></amp-img>
+  <amp-img src="./image/space-invaders2.jpg" width="500" height="368" layout="responsive" alt="Sculpture Graffiti"></amp-img>
+  <amp-img src="./image/Spray-Shadow.JPG" width="500" height="368" layout="responsive" alt="Sculpture Graffiti"></amp-img>
+
+</amp-carousel>
+
+<!-- Lightbox gallery -->
+
+<amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
+
+<article>
+
+  <h1><a name="whatis">What is Graffiti?</a></h1>
+
+  <p>Graffiti is writing or drawings made on a wall or other surface. Graffiti ranges from simple written words to elaborate wall paintings, and has existed since ancient times, with examples dating back to ancient Egypt, ancient Greece, and the Roman Empire. In modern times, spray paint and marker pens have become commonly used graffiti materials, and there are many different types and styles of graffiti; it is a rapidly developing art form.</p>
+
+  <p>*Excerpt taken from <a href="https://en.wikipedia.org/wiki/Graffiti" target="_blank" rel="nofollow">Wikipedia</a> </p>
+
+</article>
+
+<amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-4035570403790625">
+</amp-auto-ads>
+
+
+<article>
+  <h1><a name="about">About this Page</a></h1>
+
+  <p>This site was created using ⚡AMP.</p>
+
+  <p>AMP stands for the "Acclerated Mobile Page". It is an open source initiative to improve the overall performance of mobile webistes. </p>
+
+  <p>AMP HTML uses a set of contributed but centrally managed and hosted custom elements to implement advanced functionality such as image galleries that might be found in an AMP HTML document. While it does allow styling the document using custom CSS, it does not allow author written JavaScript beyond what is provided through the custom elements to reach its performance goals.</p>
+
+  <p>By using the AMP format, content producers are making the content in AMP files available to be crawled (subject to robots.txt restrictions), cached, and displayed by third parties.</p>
+
+  <p><a href="https://amp.dev/" target="_blank" rel="nofollow">To find out more about ⚡AMP</a></p>
+
+</article>
+
+  </body>
+</html>
